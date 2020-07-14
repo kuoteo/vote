@@ -1,0 +1,264 @@
+*{
+	margin: 0px ;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
+	font-family: "楷体","楷体_GB2312";
+	font-size:1.3rem;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainbody{
+	background:url("../image/bg4.jpg")  no-repeat;
+	background-size:  cover;
+	min-height:768px;
+}
+#top{
+	width: 100%;
+	height: 12rem;
+	
+	opacity:0.8;
+	position: relative;
+	margin: 0 auto;
+}
+#img{	
+	float:left;
+
+}
+#img>img{
+	padding-top:2rem; 
+	width: 30rem;
+	height: 150px;
+	position: absolute;
+	top: 0px;
+	padding-left: 2.8rem;
+}
+h1{
+	font-size: 5.4rem;
+	color: #fff;
+	float:right;
+	font-weight: normal;
+	padding-top: 5rem;
+	padding-right: 2.8rem;
+}
+
+.title{
+	height: 1.5rem;
+	margin: 0 auto;
+	padding-top: 0.7rem;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+ .subtitle{
+		height: 1.2rem;
+		margin: 0 auto;
+		margin-top:1.3rem;
+		text-align: center;
+		font-size: 1.3rem;
+		line-height: 1.2rem;
+	}
+	.logo{
+	margin-top:0;
+	padding-bottom:0.5rem;
+}
+.light{
+	margin-left:2rem;
+	width:9rem;
+}
+.xiaohuiImg{
+	margin-left:2rem;
+	width:5rem;
+}
+.xkImg{
+	margin-left:2rem;
+	width:8rem;
+}
+
+@media screen and (max-width: 1279px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .data{
+	width: 1.0rem;
+	height: 6rem;
+    background-color: rgba(0,0,0,0.2);
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	line-height: 2rem;
+  }
+  #form{
+	width:  36rem;
+	padding-top: 4rem;
+	height: 23rem;
+	margin: 0 auto;
+  }
+  .group{
+	width: 2rem;
+	height: 11rem;
+	float: left;
+	margin-left: 0.9rem;
+	text-align: center;
+	line-height: 2rem;
+	position: relative;
+  }
+  .circle {
+	line-height: 2rem;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 2rem;
+	margin-top:-0.1rem;
+	z-index: 999;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .data{
+	width: 1.0rem;
+	height: 6rem;
+  background-color: rgba(0,0,0,0.2);
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	line-height: 2rem;
+  }
+  #form{
+	width:  49rem;
+	padding-top: 3rem;
+	height: 23rem;
+	margin: 0 auto;
+  }
+  .circle {
+	line-height: 2.3rem;
+	width: 2.3rem;
+	height: 2.3rem;
+	border-radius: 2.3rem;
+	margin-top:-0.1rem;
+	z-index: 999;
+  }
+  .group{
+	width: 2.4rem;
+	height: 11rem;
+	float: left;
+	margin-left: 1.4rem;
+	text-align: center;
+	line-height: 2rem;
+	position: relative;
+  }
+ }
+ @media screen and (min-width: 1600px) {
+  .data{
+	width: 1.3rem;
+	height: 6rem;
+  background-color: rgba(0,0,0,0.2);
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	line-height: 2rem;
+  }
+  #form{
+	width: 83rem;
+	padding-top: 5rem;
+	height: 28rem;
+	margin: 0 auto;
+  }
+  .circle {
+	line-height: 3.4rem;
+	width: 3.4rem;
+	height: 3.4rem;
+	border-radius: 3rem;
+	margin-top:-0.1rem;
+	z-index: 999;
+  }
+  .group{
+	width: 3.4rem;
+	height: 13rem;
+	float: left;
+	margin-left: 3.3rem;
+	margin-bottom:1.8rem;
+	text-align: center;
+	line-height: 2rem;
+	position: relative;
+	}
+	.logo{
+		margin-top:2rem;
+	}
+	.light{
+		margin-left:4rem;
+		width:10rem;
+	}
+	.xiaohuiImg{
+		top:0.3rem;
+		position: relative;
+		margin-left:2.4rem;
+		width:6.5rem;
+	}
+	.xkImg{
+		top:-0.2rem;
+		position: relative;
+		margin-left:2.4rem;
+		width:10rem;
+	}
+	h2{
+		font-weight: normal;
+	}
+	.clear{
+		clear:both
+	}
+	.title{
+		height: 2.7rem;
+		margin: 0 auto;
+		padding-top: 5.4rem;
+		text-align: center;
+		font-size: 2.7rem;
+		line-height: 2.7rem;
+	}
+	 .subtitle{
+			height: 2.1rem;
+			margin: 0 auto;
+			margin-top:2.3rem;
+			text-align: center;
+			font-size: 2.1rem;
+			line-height: 2.1rem;
+	}
+ }
+ @media screen and (min-width: 1900px) {
+	#mainbody{
+		background:url("../image/bg4.jpg")  no-repeat;
+		background-size:  100% 100%;
+		min-height:1000px;
+	}
+ }
+.showdata{
+	width: 1.0rem;
+	/*background-color: blue;*/
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	transition: height .3s ease;
+	-webkit-transition: height .3s ease;
+	-moz-transition: height .3s ease;
+	-ms-transition: height .3s ease;
+}
+#suport{
+	color:#fff;
+	font-size: 2rem;
+	margin-top: 2rem;	
+	margin-right: 4rem;
+	float: right;
+
+}
+
+.red {
+	background-color: #27aae1;
+}
+
+.blue {
+	background-color: #f7941e;
+}
+
+.box{
+	margin: 0 auto;
+}

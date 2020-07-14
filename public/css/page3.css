@@ -1,0 +1,11 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/bg2.png);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	min-height: 49rem;	
+	background-repeat: no-repeat;
+
+}

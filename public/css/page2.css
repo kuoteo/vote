@@ -1,0 +1,190 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+input{outline: none;}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{font-size:10px}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
+@media screen and (min-width:800px){html{font-size:25px}}
+
+a{
+	text-decoration: none;
+	color: #b6b0b7;
+}
+html{
+	width: 100%;
+	min-height: 44rem;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/bg1.jpg);	
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	min-height:44rem;
+	background-repeat: no-repeat;
+}
+header{
+	height: auto;
+	width: 100%;
+}
+header img{
+	display: block;
+	width: 100%;
+}
+#body{
+	width: 28rem;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+.icon{
+	padding-top: 2rem;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+.icon .title{
+	font-size: 2.1rem;
+}
+/*h1{
+	font-weight: normal;
+}*/
+.icon .subTitle{
+	margin-top: .5rem;
+	font-size: 2.1rem;
+}
+.icon .voteTitle{
+	margin-top: 4rem;
+	font-size: 1.7rem;
+}
+.icon .voteTitle2{
+	margin-top: .5rem;
+	font-size: 1.7rem;
+}
+
+.content{
+	
+	width: 100%;
+	height: auto;
+	font-family: "微软雅黑";
+	margin-top:2rem;
+	text-align: center;
+}
+.candidate{
+	width: 6.3rem;
+	height: 3.5rem; 
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.75rem;
+background-color: #40afff;
+border: 0.1rem solid #e7eff4;
+	color: #fff;}
+
+
+.logo-con {
+	width: 100%;
+	margin-top: 1rem;
+	float: left;
+
+}
+
+.logo-con .xiaohuiImg {
+	width: 5.3rem;
+	float:left;
+	margin-top: 1rem;
+}
+
+.logo-con .xkImg {
+	margin-top: 1.3rem;
+	width: 8rem;
+	float: left;
+	margin-left:0.2rem;
+}
+
+
+#submitBtn{
+	margin-top: 2rem;
+	float:right;
+	height: 3rem;
+	width: 8rem;
+	margin-right: 2em;
+	border-radius: 0.5rem;
+	background-color: #40afff;
+	color: #fff;
+	outline: none;
+}
+.last{
+	width: 6.3rem;
+	height: 3.5rem; 
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.75rem;
+background-color: #40afff;
+border: 0.1rem solid #e7eff4;}
+
+.input_name{
+	width: 6.0rem;
+	height: 3.2rem;
+	margin: 0 auto; 
+	background-color: rgba(0,0,0,0);
+	text-align: center;
+  line-height: 1.75rem;
+  outline: none;
+  color: #fff;
+}
+#recommend{
+	padding-left:1.25rem;
+}
+.content{
+	padding-left:1.25rem;
+}
